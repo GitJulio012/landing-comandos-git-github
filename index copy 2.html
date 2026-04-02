@@ -37,24 +37,11 @@
                 Una secuencia clara para crear tu proyecto, versionarlo y subirlo a GitHub sin perder el ritmo.
             </p>
 
-            <p class="mt-4 inline-flex max-w-2xl items-center gap-2 rounded-lg border border-emerald-400/30 bg-emerald-500/10 px-3 py-2 text-xs font-medium text-emerald-200 md:text-sm">
-                Objetivo: terminar con tu primer proyecto local publicado en GitHub.
-            </p>
-
             <div class="mt-6 flex flex-wrap gap-3 text-xs font-medium text-slate-300">
                 <span class="rounded-full border border-slate-600 bg-slate-900/70 px-3 py-1">6 pasos</span>
                 <span class="rounded-full border border-slate-600 bg-slate-900/70 px-3 py-1">CLI first</span>
                 <span class="rounded-full border border-slate-600 bg-slate-900/70 px-3 py-1">Deploy mental model</span>
             </div>
-        </section>
-
-        <section class="mt-6 rounded-2xl border border-slate-700 bg-slate-800/40 p-5">
-            <h2 class="text-sm font-bold uppercase tracking-[0.18em] text-cyan-300">Prerequisitos</h2>
-            <ul class="mt-3 grid gap-2 text-sm text-slate-300 md:grid-cols-3">
-                <li class="rounded-lg border border-slate-700 bg-slate-900/60 px-3 py-2">Git instalado en tu equipo</li>
-                <li class="rounded-lg border border-slate-700 bg-slate-900/60 px-3 py-2">Cuenta activa en GitHub</li>
-                <li class="rounded-lg border border-slate-700 bg-slate-900/60 px-3 py-2">Conocimientos basicos de terminal</li>
-            </ul>
         </section>
 
         <ol class="mt-8 grid gap-5 md:grid-cols-2">
@@ -112,8 +99,7 @@
                 </div>
                 <h3 class="text-sm font-bold uppercase tracking-wide text-white">Subir a remoto</h3>
                 <div class="mt-3 rounded-lg border-l-4 border-rose-500 bg-black/60 p-4 font-mono text-sm text-rose-200">
-                    git push origin master<br>
-                    <span class="text-slate-300">Alternativa:</span> git push origin main
+                    git push origin master
                 </div>
             </li>
 
@@ -126,42 +112,10 @@
                 <div class="mt-3 rounded-lg border-l-4 border-emerald-500 bg-black/60 p-4 font-mono text-sm text-emerald-400">
                     git add .<br>
                     git commit -m "nuevo cambio"<br>
-                    git push origin master<br>
-                    <span class="text-slate-300">Alternativa:</span> git push origin main
+                    git push origin master
                 </div>
             </li>
         </ol>
-
-        <section class="mt-8 rounded-2xl border border-slate-700 bg-slate-800/40 p-6">
-            <h2 class="text-sm font-bold uppercase tracking-[0.18em] text-violet-300">Glosario</h2>
-            <dl class="mt-4 grid gap-3 sm:grid-cols-2 md:grid-cols-3">
-                <div class="rounded-lg border border-slate-700 bg-slate-900/60 px-4 py-3">
-                    <dt class="text-xs font-bold uppercase tracking-wide text-violet-300">Repo local</dt>
-                    <dd class="mt-1 text-xs text-slate-400">Carpeta versionada con Git en tu propia maquina.</dd>
-                </div>
-                <div class="rounded-lg border border-slate-700 bg-slate-900/60 px-4 py-3">
-                    <dt class="text-xs font-bold uppercase tracking-wide text-violet-300">Repo remoto</dt>
-                    <dd class="mt-1 text-xs text-slate-400">Copia del proyecto alojada en la nube, en GitHub.</dd>
-                </div>
-                <div class="rounded-lg border border-slate-700 bg-slate-900/60 px-4 py-3">
-                    <dt class="text-xs font-bold uppercase tracking-wide text-violet-300">Commit</dt>
-                    <dd class="mt-1 text-xs text-slate-400">Instantanea guardada de tus cambios en el historial.</dd>
-                </div>
-                <div class="rounded-lg border border-slate-700 bg-slate-900/60 px-4 py-3">
-                    <dt class="text-xs font-bold uppercase tracking-wide text-violet-300">Push</dt>
-                    <dd class="mt-1 text-xs text-slate-400">Subir tus commits locales al repositorio remoto.</dd>
-                </div>
-                <div class="rounded-lg border border-slate-700 bg-slate-900/60 px-4 py-3">
-                    <dt class="text-xs font-bold uppercase tracking-wide text-violet-300">Origin</dt>
-                    <dd class="mt-1 text-xs text-slate-400">Alias por defecto que apunta a tu repo remoto en GitHub.</dd>
-                </div>
-                <div class="rounded-lg border border-slate-700 bg-slate-900/60 px-4 py-3">
-                    <dt class="text-xs font-bold uppercase tracking-wide text-violet-300">Branch</dt>
-                    <dd class="mt-1 text-xs text-slate-400">Linea de desarrollo independiente; master o main es la principal.</dd>
-                </div>
-            </dl>
-        </section>
-
     </main>
 </body>
 </html>
